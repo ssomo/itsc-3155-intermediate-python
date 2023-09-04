@@ -1,6 +1,5 @@
 #Takes in a string from the user and returns a dictionary that keeps
 #count of each letter
-
 def get_string_dict(string):
     #Breaks up the string into a list of characters
     lst = list(string)
@@ -15,7 +14,6 @@ def get_string_dict(string):
     #Returns the dictionary
     return dct
     
-
 if __name__ == '__main__':
     string = str(input('Enter a string: '))
     print(get_string_dict(string))
